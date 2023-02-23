@@ -14,9 +14,9 @@ $on(MITT_KEY.CHANGE_TO_ABOUT, () => {
 </script>
 
 <template>
-  <div ref="rootRef" class="about full pt-19 text-white text-xl font-500 grid grid-cols-12 items-center">
+  <div ref="rootRef" class="about full  text-white text-xl font-500 grid grid-cols-12 items-center">
     <MarqueeCpn
-      ref="descriptRef" class="card-content text-lg  col-span-10 col-start-2 md:(col-span-6 col-start-2 text-xl)" :time="0.1"
+      ref="descriptRef" class="card-content text-lg leading-8!  col-span-10 col-start-2 md:(col-span-6 col-start-2 text-xl leading-10!)" :time="0.1"
       :text="`&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp${COMPANY}${descript}`"
     />
   </div>

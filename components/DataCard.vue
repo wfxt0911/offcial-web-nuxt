@@ -24,10 +24,10 @@ defineExpose({ restart })
     <div class="flex justify-center text-6xl">
       <slot name="icon" />
     </div>
-    <div class="text-lg mt-2 md:(mt-8 text-5xl) text-primary">
+    <div class="text-2xl mt-2 md:(mt-8 text-5xl) text-primary ">
       <slot name="data" />
     </div>
-    <div class="text-sm  mt-2 md:(mt-3 text-lg) tracking-wider text-gray-3">
+    <div class="text-sm  mt-1 md:(mt-3 text-lg) tracking-wider text-gray-3">
       <slot name="descript" />
     </div>
     <div class="text-sm  mt-2 md:(mt-6 text-lg) tracking-wider">

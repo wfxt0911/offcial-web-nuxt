@@ -62,7 +62,7 @@ const drawerSize = computed(() => {
         个人学习网站，欢迎阅览指正
       </div>
       <el-divider />
-      <img src="/qrCode.png" class="w-50 h-50">
+      <img src="/github.png" class="w-50 h-50">
       <div class="my-4 text-sm text-center">
         <div>项目开源地址</div>
         <div>

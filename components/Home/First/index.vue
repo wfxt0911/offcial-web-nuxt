@@ -53,7 +53,7 @@ const swiperEvt = (e: any) => {
         clickable: true,
       }"
       :autoplay="{
-        delay: 30000000,
+        delay: 3000,
         disableOnInteraction: false,
       }"
       style="--swiper-navigation-sides-offset:40px;"

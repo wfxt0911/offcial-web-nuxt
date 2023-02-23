@@ -42,7 +42,7 @@ defineExpose({ restart })
           {{ props.middleText }}
         </div>
 
-        <div text-lg md:text-xl font-500 mt-2 md:mt-6 tracking-widest v-html="props.bottomText" />
+        <div text-lg md:text-xl font-500 mt-2 md:mt-6 tracking-wide v-html="props.bottomText" />
       </div>
     </div>
     <div col-span-1 md:col-span-3 />

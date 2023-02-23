@@ -31,8 +31,8 @@ $on(MITT_KEY.CHANGE_TO_QUALITY, () => {
           Technical certification
         </div>
         <MarqueeCpn
-          ref="technicalRef" class="card-content"
-          text="拥有国际TS 16949体系,TS 16949质量管理体系要求是由美国三大汽车公司克莱斯勒、福特和通用汽车公司共同制订，于1994年颁布的一套完整的质量体系标准,它包括ISO 9001的所有要求，并增加了与汽车行业相关的特定要求;"
+          ref="technicalRef" class="card-content leading-8!"
+          text="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp拥有国际TS 16949体系,TS 16949质量管理体系要求是由美国三大汽车公司克莱斯勒、福特和通用汽车公司共同制订，于1994年颁布的一套完整的质量体系标准,它包括ISO 9001的所有要求，并增加了与汽车行业相关的特定要求;"
         />
       </div>
 
@@ -45,8 +45,8 @@ $on(MITT_KEY.CHANGE_TO_QUALITY, () => {
           Security certification
         </div>
         <MarqueeCpn
-          ref="securityRef" class="card-content"
-          text="Euro NCAP认证、NHTSA认证、IIHS认证、C-NCAP认证;为汽车保证出口于世界各地,每一款车型均满足多个认证体系,认证体系包括国内、国外;"
+          ref="securityRef" class="card-content leading-8!"
+          text="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Euro NCAP认证、NHTSA认证、IIHS认证、C-NCAP认证;为汽车保证出口于世界各地,每一款车型均满足多个认证体系,认证体系包括国内、国外;"
         />
       </div>
     </div>
@@ -55,7 +55,7 @@ $on(MITT_KEY.CHANGE_TO_QUALITY, () => {
 
 <style scoped lang='scss'>
 .quality {
-  background-image: url("/quality2.jpg");
+  background-image: url("/quality.jpg");
 }
 
 .card{
@@ -64,7 +64,7 @@ $on(MITT_KEY.CHANGE_TO_QUALITY, () => {
     @apply text-2xl md:text-4xl;
   }
   &-descript{
-    @apply  text-primary b-b-2 b-primary  text-2xl mt-4 md:(text-4xl leading-16 mt-2);
+    @apply  text-primary b-b-2 b-primary  text-2xl mt-4 md:(text-4xl leading-16 mt-2 ) ;
   }
   &-content{
     @apply text-base mt-4 text-left;

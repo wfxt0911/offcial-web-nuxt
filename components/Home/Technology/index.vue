@@ -43,7 +43,7 @@ $on(MITT_KEY.CHANGE_TO_TECHNOLOGY, () => {
         </div>
         <MarqueeCpn
           ref="batteryRef" class="card-content"
-          text="由锂、镍、钴和锰等金属氧化物混合而成的三元材料，具有高能量密度和长循环寿命的特点。而固体电解质层通常由锂离子导电的聚合物或陶瓷材料构成，能够防止电池发生渗漏和爆炸等危险情况"
+          text="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp由锂、镍、钴和锰等金属氧化物混合而成的三元材料，具有高能量密度和长循环寿命的特点。而固体电解质层通常由锂离子导电的聚合物或陶瓷材料构成，能够防止电池发生渗漏和爆炸等危险情况"
         />
       </div>
 
@@ -57,7 +57,7 @@ $on(MITT_KEY.CHANGE_TO_TECHNOLOGY, () => {
         </div>
         <MarqueeCpn
           ref="motorRef" class="card-content"
-          text="CVVD技术是通过改变凸轮触发气门开启的时机与持续时间，从而使发动机提升性能并降低油耗，同时还具备降低排放污染的优势,可以适时根据驾驶场景的需求，在平稳行驶、急加速等过程中合理控制气门开启的时机与持续时间，为发动机提供即时最适合的空燃比，进而实现减排节能和高性能输出的双目标;"
+          text="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp CVVD技术是通过改变凸轮触发气门开启的时机与持续时间，从而使发动机提升性能并降低油耗，同时还具备降低排放污染的优势,可以适时根据驾驶场景的需求，在平稳行驶、急加速等过程中合理控制气门开启的时机与持续时间，为发动机提供即时最适合的空燃比，进而实现减排节能和高性能输出的双目标;"
         />
       </div>
 
@@ -71,7 +71,7 @@ $on(MITT_KEY.CHANGE_TO_TECHNOLOGY, () => {
         </div>
         <MarqueeCpn
           ref="parkRef" class="card-content"
-          text="自动泊车系统通过激光雷达、摄像头等多种传感器感知车辆周围的环境，并使用内置的控制算法，生成路线规划，使车辆能够在狭小的空间中进行自主导航和泊车操作;"
+          text="&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp自动泊车系统通过激光雷达、摄像头等多种传感器感知车辆周围的环境，并使用内置的控制算法，生成路线规划，使车辆能够在狭小的空间中进行自主导航和泊车操作;"
         />
       </div>
     </div>
@@ -81,7 +81,6 @@ $on(MITT_KEY.CHANGE_TO_TECHNOLOGY, () => {
 <style scoped lang='scss'>
 .technology {
   background-image: url("/technology.jpg");
-  background-image: url("/business2.jpg");
 
 }
 

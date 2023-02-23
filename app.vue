@@ -1,7 +1,9 @@
 <script setup lang="ts">
+import { COMPANY } from '~~/enums/appEnum'
+
 const { cssVar } = useCss()
 useHead({
-  title: 'zz',
+  title: COMPANY,
   link: [
     {
       rel: 'icon', type: 'image/png', href: '/logo.png',

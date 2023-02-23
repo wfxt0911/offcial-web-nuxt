@@ -30,25 +30,8 @@ $on(MITT_KEY.HEADER_SELECT_EVENT, (e: any) => {
       @swiper="onSwiper" @active-index-change="activeIndexChange"
     >
       <SwiperSlide v-for="item in headerList" :key="item.href">
-        <!-- <HomeFirst /> -->
         <component :is="item.component" />
       </SwiperSlide>
-      <!-- <SwiperSlide class="slide">
-        <HomeBusiness />
-      </SwiperSlide>
-      <SwiperSlide class="slide">
-        <HomeQuality />
-      </SwiperSlide>
-
-      <SwiperSlide class="slide">
-        <HomeData />
-      </SwiperSlide>
-      <SwiperSlide class="slide">
-        <HomeTechnology />
-      </SwiperSlide>
-      <SwiperSlide class="slide">
-        <HomeAbout />
-      </SwiperSlide> -->
     </SwiperCpn>
   </div>
 </template>

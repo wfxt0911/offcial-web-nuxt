@@ -53,8 +53,7 @@ const cardList = [
 
 <style scoped lang='scss'>
 .business {
-  background-image: url("/business2.jpg");
-  background-image: url("/technology.jpg");
+  background-image: url("/business.jpg");
 
 }
 </style>
